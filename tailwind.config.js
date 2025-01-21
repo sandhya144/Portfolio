@@ -21,15 +21,6 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
-      // animation: {
-      //   blink: "blink 0.7s step-end infinite",
-      // },
-      // keyframes: {
-      //   blink: {
-      //     "0%, 100%": { borderColor: "black" },
-      //     "50%": { borderColor: "transparent" },
-      //   },
-      // },
     },
   },
   plugins: [],
