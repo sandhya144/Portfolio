@@ -9,6 +9,10 @@ import {SectionWrapper} from "../hoc";
 import { slideIn } from "../utils/motion";
 
 
+//template_k1mn069   temp id
+//service_b97rzf7  service id   
+// e9NY6qyBzvLkBcpGn  public key
+
 const Contact = () => {     
     const formRef = useRef();
     const [form, setForm] = useState({
@@ -34,21 +38,20 @@ const Contact = () => {
         setLoading(false);
         return;
       }
+   
+      console.log("Sending email with:", form); // Debugging log
 
-    emailjs.send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+    emailjs.send('service_b97rzf7', 'template_k1mn069',
         {
-          from_name: form.name,
+          from_name: form.name,  
           to_name: "Sandhya",
           from_email: form.email,
           to_email: "186sndy@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'e9NY6qyBzvLkBcpGn'
       )
-      
-      
+       
     .then(
       () => {
         setLoading(false);
