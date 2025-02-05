@@ -15,13 +15,17 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    // meta,
+    // starbucks,
+    // tesla,
+    // shopify,
+    Harvard,
+    Aith,
+    Gdg,
+    igdtuw,
+    TicTacToe,
+    Gemini,
+    Portfolio,
     threejs,
   } from "../assets";
   
@@ -45,13 +49,14 @@ import {
       title: "Web Developer",
       icon: web,
     },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
+   
     {
       title: "Backend Developer",
       icon: backend,
+    },
+    {
+      title: "Programmer",
+      icon: mobile,
     },
     {
       title: "Content Creator",
@@ -72,10 +77,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
@@ -92,10 +97,10 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     {
       name: "Three JS",
       icon: threejs,
@@ -108,63 +113,66 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Web Development Prorgam | IGDTUW",
+      company_name: "MSC-IGDTUW",
+      icon: igdtuw,
+      // iconBg: "#383E56",
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "July 2024 - August 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Achieved a Top 5 rank among all mentees in the MSC-IGDTUW Web Development Bootcamp, demonstrating proficiency in modern web technologies and real-world application development.",
+        "Designed and developed web-dev projects, integrating responsive UI/UX, optimized performance, and API-driven functionalities, showcasing expertise in React.js, JavaScript, and other technologies.",
+        "Collaborated with industry mentors to refine coding best practices, improve problem-solving efficiency, and implement scalable, production-ready web applications.",
+        // "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Hack Odyssey | Co-Organizer ",
+      company_name: "AITH Kanpur",
+      icon: Aith,
+      // iconBg: "#E6DEDD",
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Dec 2024 - Jan 2025",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Spearheaded the end-to-end execution of Hack Odyssey, a large-scale hackathon with 150+ participants, successfully securing sponsorships, rewards, and certificates in collaboration with GeeksforGeeks.",
+        "Led event logistics, participant coordination, and technical workshops, facilitating a 30% improvement in coding skills among the top 10 participants through an intensive DSA training session.",
+        "Strengthened community engagement by fostering a collaborative and competitive environment, ensuring seamless operations and maximizing knowledge-sharing opportunities.",
+        // "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "GDG | Core Team Member",
+      company_name: "Google Developer Group",
+      icon: Gdg,
+      // iconBg: "#383E56",
+      iconBg: "#E6DEDD",
+      date: "Sep 2024 - Present",
+      points: [
+        "Designed personalized learning paths and peer mentoring sessions, leading to a 30% increase in team performance and fostering collaboration among 100+ competitive programmers.",
+        "Conducted weekly technical workshops on algorithm design and problem-solving techniques, equipping participants with the skills to excel in national and international coding competitions.",
+        "Championed a community-driven learning culture, mentoring aspiring developers and facilitating knowledge exchange through structured problem-solving sessions and hackathons.",
+        // "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Global Fellowships",
+      company_name: "Microsoft | HPAIR | ASPIRE",
+      icon: Harvard,
+      iconBg: "#E6DEDD",
+      date: "Jan 2025 - Present",
+      points: [
+        "Microsoft Code; Without Barriers Mentee : Chosen for Microsoft’s initiative aimed at bridging the gender gap in tech, participating in hands-on AI and cloud computing projects, and networking with Microsoft experts and global mentors.",
+        "ASPIRE Leader Fellow : Completing an intensive leadership and innovation program, gaining mentorship from top professionals across industries.",
+        "HPAIR'25 Delegate : Selected to participate in Harvard’s prestigious HPAIR Conference, engaging in global discussions on technology, leadership, and AI ethics, collaborating with industry leaders and researchers to address real-world challenges.",
+        // "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
   ];
@@ -172,93 +180,92 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Their creativity and technical expertise in web development, especially in React.js and 3D design, set them apart. They constantly push boundaries to deliver exceptional results.",
+      name: "Aarav Mehta",
+      // designation: "",
+      image: "https://img.freepik.com/premium-photo/indian-college-boy-happy-smiling-college_437792-728.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "One of the most reliable developers I've worked with. Their dedication to creating responsive and visually stunning web experiences is impressive. They bring both creativity and technical precision.",
+      name: "Ananya Srivastava",
+      // designation: "COO",
+      image: "https://media.istockphoto.com/id/1097854158/photo/day-at-the-campus.jpg?s=612x612&w=0&k=20&c=qW62usluDwG6pLJ-4G9x7h43byggo0uvGGVZwyOLr_g=",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "An outstanding developer with a unique approach to problem-solving. Their skills in web development, from frontend design to interactive 3D models, are unmatched. It's great to work with them.",
+      name: "Vihaan Singh",
+      // designation: "CTO",
+      // company: "456 Enterprises",
+      image: "https://img.freepik.com/premium-photo/young-indian-college-boy-holding-backpack-books-giving-happy-expression_54391-7224.jpg?w=2000",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Tic Tac Toe",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a responsive and interactive Tic Tac Toe web application featuring a sleek, user-friendly interface, engaging confetti effects for victories, and audio feedback. The game offers a smooth experience, enhancing my expertise in game logic implementation.",
       tags: [
         {
-          name: "react",
+          name: "HTML5",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: " CSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: TicTacToe,
+      source_code_link: "https://github.com/sandhya144/Tic-Tac-Toe.git",
     },
     {
-      name: "Job IT",
+      name: "Google Gemini",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Designed a Google Gemini-inspired web application with dark and light mode UI, integrated the Gemini API, and optimized performance. Implemented copy, paste, and delete features,  enhancing usability and boosting user engagement and accessibility.",
       tags: [
         {
-          name: "react",
+          name: "HTML5",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: Gemini,
+      source_code_link: "https://github.com/sandhya144/Gemini.git",
     },
+
     {
-      name: "Trip Guide",
+      name: "Portfolio Website",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Created a responsive portfolio using React.js and Three.js, featuring interactive 3D models such as a computer model and a rotating 3D Earth planet with animations, demonstrating my expertise in modern web development and 3D design.",
       tags: [
         {
-          name: "nextjs",
+          name: "React.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Three.js",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: Portfolio,
+      source_code_link: "https://github.com/sandhya144/Portfolio.git",
     },
   ];
   
