@@ -1,11 +1,24 @@
-import React, {Suspense} from 'react';
-import { Canvas } from '@react-three/fiber';
+import React, {Suspense, useRef} from 'react';
+import { Canvas, useFrame } from '@react-three/fiber';
 import {Decal, Float, OrbitControls, Preload, useTexture} from '@react-three/drei'; 
 import CanvasLoader from '../Loader';
 
 
 const Ball = (props) => {
 const [decal] = useTexture([props.imgUrl]);
+const meshRef = useRef(); // Create a reference for the mesh
+
+  // Rotate the ball on every frame
+  useFrame(() => {
+    if (meshRef.current) {
+      meshRef.current.rotation.y += 0.01; // Rotate around the Y-axis
+      meshRef.current.rotation.x += 0.005; // Rotate slightly around the X-axis
+
+      // Floating motion using sine wave
+      time.current += 0.08; // Controls the speed of floating
+      meshRef.current.position.y = Math.sin(time.current) * 0.7; // Smooth floating effect
+    }
+  });
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
@@ -27,7 +40,7 @@ const [decal] = useTexture([props.imgUrl]);
           flatShading
         />
       </mesh>
-    </Float>
+    </Float> 
   );
 };
 
@@ -35,7 +48,7 @@ const [decal] = useTexture([props.imgUrl]);
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
-      frameloop='demand'
+      frameloop='always'
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >
