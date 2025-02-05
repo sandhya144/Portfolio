@@ -121,7 +121,7 @@ import {
   
   const experiences = [
     {
-      title: "Web Development Prorgam | IGDTUW",
+      title: "Web Development Program | IGDTUW",
       company_name: "MSC-IGDTUW",
       icon: igdtuw,
       // iconBg: "#383E56",
