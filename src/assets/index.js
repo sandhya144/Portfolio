@@ -21,7 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import Harvard from "./company/Harvard.jpg";
+import microsoft from "./company/microsoft.png";
 import Aith from "./company/Aith.jpg";
 import Gdg from "./company/Gdg.jpg";
 import igdtuw from "./company/igdtuw.jpg";
@@ -52,7 +52,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  Harvard,
+  microsoft,
   Aith,
   Gdg,
   igdtuw,

@@ -19,7 +19,7 @@ import {
     // starbucks,
     // tesla,
     // shopify,
-    Harvard,
+    microsoft,
     Aith,
     Gdg,
     igdtuw,
@@ -165,7 +165,7 @@ import {
     {
       title: "Global Fellowships",
       company_name: "Microsoft | HPAIR | ASPIRE",
-      icon: Harvard,
+      icon: microsoft,
       iconBg: "#E6DEDD",
       date: "Jan 2025 - Present",
       points: [
