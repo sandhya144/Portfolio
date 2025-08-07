@@ -5,6 +5,7 @@ import { styles } from "../style";
 import { navLinks } from "../constants";
 import { menu, close } from "../assets";
 import Logo from "../assets/Logo.jpg";
+import {FaGithub, FaLinkedin} from 'react-icons/fa'
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -26,7 +27,7 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  return (
+ return (
     <nav
       className={`${
         styles.paddingX
@@ -44,12 +45,15 @@ const Navbar = () => {
           }}
         >
           <img src={Logo} alt='logo' className='w-9 h-9 object-contain rounded-full' />
+          {/* <span className="text-white bold">&lt;</span> */}
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Sandhya &nbsp;
             <span className='sm:block hidden'> | Pandey</span>
+            {/* <span className="text-white">&gt;</span> */}
           </p>
         </Link>
 
+       <div className="hidden sm:flex items-center gap-7">
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
@@ -63,6 +67,29 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+        {/* social media icons */}
+        <div className=" hidden md:flex space-x-6">
+          <a 
+          href="https://github.com/sandhya144"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-300 hover:text-white "
+          >
+          <FaGithub size={26}/>
+          </a>
+
+          <a 
+          href="https://www.linkedin.com/in/sandhya-pandey-a662a3363/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-300 hover:text-white "
+          >
+          <FaLinkedin size={26}/>
+          </a>
+
+        </div>
+       </div>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
@@ -94,6 +121,7 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
+
         </div>
       </div>
     </nav>
