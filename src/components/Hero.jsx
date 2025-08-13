@@ -41,8 +41,9 @@ const Hero = () => {
     <motion.p
           variants={fadeIn("", "", 0.1, 1)}
            className='mt-4 text-secondary text-[17px] leading-[30px]font-normal'  
-         >
-           I would describe myself in brief, as a passionate coder with great problem solving skills and keen interest in learning new technologies. I am a fullstack web developer, currently learning Machine Learning. I would love to put my talent into work and help you with your projects.
+         > I’m a coder at heart who loves solving tricky problems. <br/>With experience in full-stack development, I enjoy building things that work and last. 
+         I’d be happy to bring my expertise to the table and help make your projects a success.
+
          </motion.p>
 
       {/* resume button */}
@@ -109,5 +110,4 @@ const Hero = () => {
 };
 
 export default Hero;
-
 

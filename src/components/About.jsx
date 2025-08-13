@@ -39,11 +39,6 @@ const ServiceCard = ({index, title, icon}) => {
   );
 }
 
-
-
-
-
-
 const About = () => {
   return (
     <>
@@ -56,11 +51,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        My coding journey began in January 2024, with a laptop on my desk and curiosity in my mind. The thrill of building my first projects hooked me instantly — every bug I fixed felt like unlocking a new level. 
+      <br/>
+  From my first lines of code to reaching towards the Competitive Programming, every milestone has fueled my passion.
+  <br />
+  Balancing academics and code hasn’t been easy, but somewhere between late-night problem-solving and seeing my ideas come to life, I realized this isn’t just a skill — it’s my passion.
+
+
+        
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
@@ -75,4 +74,3 @@ const About = () => {
 
 
 export default SectionWrapper(About, "about");
-
