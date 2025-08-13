@@ -11,33 +11,36 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto pt-20 ` }>
       <div
-         className={`absolute inset-0 top-[140px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-col md:flex-row items-center md:items-start gap-16`}
+         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-col md:flex-row items-center md:items-start gap-16`}
       >
       
 
   <div className="flex-1 max-w-xl">
   <h1 className={`${styles.heroHeadText} text-5xl sm:text-6xl font-bold text-white leading-tight`}>
-    Hi, I'm <span className="text-[#915EFF]">Sandhya </span>
+    Hi, I'm <span className="text-[#915EFF]">Sandhya Pandey</span>
   </h1>
-  <p className={`${styles.heroSubText} mt-4 text-lg sm:text-xl text-white`} >
+  <p className={`${styles.heroSubText} mt-4 text-lg sm:text-xl text-white font-bold`} >
+
+
     <ReactTyped
       strings={[
-       `I'm a <span style="color:#915EFF"> Fullstack Developer.</span>`,
-        `I'm a <span style="color:#915EFF"> Competitive Coder.</span>`,
-        `I love turning <span style="color:#915EFF"> ideas into reality.</span>`,
+       `I'm a <span style="color:#915EFF; font-weight:bold;"> Fullstack Developer.</span>`,
+         `I'm a <span style="color:#915EFF; font-weight:bold;">Competitive Coder.</span>`,
+    `I love turning <span style="color:#915EFF; font-weight:bold;">ideas into reality.</span>`,
       ]}
+
       speed={100}
       backSpeed={70} 
       loop
-      typingDelay={500}
-      eraseDelay = {2000} 
       showCursor={true}
       cursorChar="|"
+      contentType="html"
     />
+
 
     <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-           className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+           className='mt-4 text-secondary text-[17px] leading-[30px]font-normal'  
          >
            I would describe myself in brief, as a passionate coder with great problem solving skills and keen interest in learning new technologies. I am a fullstack web developer, currently learning Machine Learning. I would love to put my talent into work and help you with your projects.
          </motion.p>
