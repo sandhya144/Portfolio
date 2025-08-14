@@ -13,12 +13,8 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
+    figma,    
     docker,
-    // meta,
-    // starbucks,
-    // tesla,
-    // shopify,
     microsoft,
     Aith,
     Gdg,
@@ -26,9 +22,14 @@ import {
     TicTacToe,
     Gemini,
     Portfolio,
+    // Chess,
     threejs,
+    //  cpp,
+     
   } from "../assets";
-  
+
+
+
   export const navLinks = [
     {
       id: "about",
@@ -49,23 +50,35 @@ import {
       title: "Web Developer",
       icon: web,
     },
-   
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Programmer",
-      icon: mobile,
-    },
     {
       title: "Content Creator",
       icon: creator,
     },
+    {
+      title: "700+ DSA Problem Solved",
+      icon: backend,
+    },
+     {
+      title: "20+ Github Repositories",
+      icon: mobile,
+    },
+    // {
+    //   title: "500+ LinkedIn Followers",
+    //   icon: mobile,
+    // },
+    //  {
+    //   title: "1x Hack Participant",
+    //   icon: web,
+    // },
+   
   ];
   
   const technologies = [
-    {
+    //  {
+    //   name: "C++",
+    //   icon: cpp,
+    // },
+   {
       name: "HTML 5",
       icon: html,
     },
@@ -97,10 +110,10 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    // {
-    //   name: "MongoDB",
-    //   icon: mongodb,
-    // },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
     {
       name: "Three JS",
       icon: threejs,
@@ -113,6 +126,7 @@ import {
       name: "figma",
       icon: figma,
     },
+
     // {
     //   name: "docker",
     //   icon: docker,
@@ -224,6 +238,7 @@ import {
       image: TicTacToe,
       source_code_link: "https://github.com/sandhya144/Tic-Tac-Toe.git",
     },
+    
     {
       name: "Google Gemini",
       description:
@@ -245,7 +260,6 @@ import {
       image: Gemini,
       source_code_link: "https://github.com/sandhya144/Gemini.git",
     },
-
     {
       name: "Portfolio Website",
       description:
@@ -267,6 +281,28 @@ import {
       image: Portfolio,
       source_code_link: "https://github.com/sandhya144/Portfolio.git",
     },
-  ];
+  //   {
+  //     name: "ChessGame",
+  //     description:
+  //       "Created a responsive portfolio using React.js and Three.js, featuring interactive 3D models such as a computer model and a rotating 3D Earth planet with animations, demonstrating my expertise in modern web development and 3D design.",
+  //     tags: [
+  //       {
+  //         name: "Node.js",
+  //         color: "blue-text-gradient",
+  //       },
+  //       {
+  //         name: "Express.js",
+  //         color: "green-text-gradient",
+  //       },
+  //       {
+  //         name: "Socket IO",
+  //         color: "pink-text-gradient",
+  //       },
+  //     ],
+  //     image: Chess,
+  //     source_code_link: "https://github.com/sandhya144/ChessGame.git",
+  //   },
+   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects };
+
