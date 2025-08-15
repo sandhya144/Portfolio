@@ -1,31 +1,56 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
 import { styles } from "../style";
 import { navLinks } from "../constants";
 import { menu, close } from "../assets";
 import Logo from "../assets/Logo.jpg";
-import {FaGithub, FaLinkedin} from 'react-icons/fa'
+import {FaGithub, FaLinkedin} from 'react-icons/fa';
+
 
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [showPandey, setShowPandey] = useState(true);
 
-  useEffect(() => {
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const scrollTop = window.scrollY;
+  //     if (scrollTop > 100) {
+  //       setScrolled(true);
+  //     } else {
+  //       setScrolled(false);
+  //     }
+  //   };
+
+
+  //   window.addEventListener("scroll", handleScroll);
+
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, []);
+
+
+   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.scrollY;
-      if (scrollTop > 100) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      setScrolled(window.scrollY > 100);
     };
 
-    window.addEventListener("scroll", handleScroll);
+    const handleResize = () => {
+      setShowPandey(window.innerWidth > 715);
+    };
 
-    return () => window.removeEventListener("scroll", handleScroll);
+    // set initial visibility on mount
+    handleResize();
+
+    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
+
 
  return (
     <nav
@@ -48,13 +73,15 @@ const Navbar = () => {
           {/* <span className="text-white bold">&lt;</span> */}
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Sandhya &nbsp;
-            <span className='sm:block hidden'> | Pandey</span>
+            {/* <span className='sm:block hidden'> | Pandey</span> */}
             {/* <span className="text-white">&gt;</span> */}
+            
+         {showPandey && <span>| Pandey</span>}
           </p>
         </Link>
 
        <div className="hidden sm:flex items-center gap-7">
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden sm:flex flex-row gap-6'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}

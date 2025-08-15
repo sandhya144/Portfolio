@@ -29,6 +29,9 @@ import igdtuw from "./company/igdtuw.jpg";
 import TicTacToe from "./TicTacToe.png";
 import Gemini from "./Gemini.png";
 import Portfolio from "./Portfolio.png";
+import Chess from "./Chess.png";
+import cpp from "./cpp.svg";
+import School from "./School.jpeg";
 
 export {
   logo,
@@ -58,5 +61,8 @@ export {
   igdtuw,
   TicTacToe,
   Gemini,
-  Portfolio
+  Portfolio,
+  Chess,
+  cpp,
+  School,
 };

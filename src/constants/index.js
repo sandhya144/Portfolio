@@ -22,9 +22,10 @@ import {
     TicTacToe,
     Gemini,
     Portfolio,
-    // Chess,
+     Chess,
     threejs,
-    //  cpp,
+    cpp,
+    School,
      
   } from "../assets";
 
@@ -40,9 +41,14 @@ import {
       title: "Work",
     },
     {
+      id: "education",
+      title: "Education",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
+     
   ];
   
   const services = [
@@ -62,22 +68,14 @@ import {
       title: "20+ Github Repositories",
       icon: mobile,
     },
-    // {
-    //   title: "500+ LinkedIn Followers",
-    //   icon: mobile,
-    // },
-    //  {
-    //   title: "1x Hack Participant",
-    //   icon: web,
-    // },
-   
+    
   ];
   
   const technologies = [
-    //  {
-    //   name: "C++",
-    //   icon: cpp,
-    // },
+     {
+      name: "C++",
+      icon: cpp,
+    },
    {
       name: "HTML 5",
       icon: html,
@@ -190,6 +188,45 @@ import {
       ],
     },
   ];
+
+  const timeline = [
+    {
+      title: "Primary Education",
+      company_name: "KVN Public School, Varanasi",
+      icon: School,
+      // iconBg: "#383E56",
+      iconBg: "#E6DEDD",
+      date: "April 2017 - May 2019",
+      points: [
+        "Built a strong academic foundation and developed early problem-solving skills. Graduated with 85% in board examinations.",
+      ],
+    },
+    {
+      title: "Higher Secondary Education",
+      company_name: "KVN Public School, Varanasi",
+      icon: School,
+      // iconBg: "#E6DEDD",
+      iconBg: "#E6DEDD",
+      date: "April 2019 - May 2021",
+      points: [
+        "Specialized in Science with Mathematics, focusing on academic excellence and analytical skills. Achieved 80% in Class XII.",
+        
+      ],
+    },
+    {
+      title: "Undergraduate in Computer Science & Engineering",
+      company_name: "DR. Ambedkar Institute Of Technology, Kanpur",
+      icon: Aith,
+      // iconBg: "#E6DEDD",
+      iconBg: "#E6DEDD",
+      date: "September 2023 - August 2027",
+      points: [
+        "Pursuing a comprehensive curriculum in core computer science and modern technologies, maintaining a 8+ CGPA.",
+      ],
+    },
+    
+    
+  ];
   
   const testimonials = [
     {
@@ -281,28 +318,29 @@ import {
       image: Portfolio,
       source_code_link: "https://github.com/sandhya144/Portfolio.git",
     },
-  //   {
-  //     name: "ChessGame",
-  //     description:
-  //       "Created a responsive portfolio using React.js and Three.js, featuring interactive 3D models such as a computer model and a rotating 3D Earth planet with animations, demonstrating my expertise in modern web development and 3D design.",
-  //     tags: [
-  //       {
-  //         name: "Node.js",
-  //         color: "blue-text-gradient",
-  //       },
-  //       {
-  //         name: "Express.js",
-  //         color: "green-text-gradient",
-  //       },
-  //       {
-  //         name: "Socket IO",
-  //         color: "pink-text-gradient",
-  //       },
-  //     ],
-  //     image: Chess,
-  //     source_code_link: "https://github.com/sandhya144/ChessGame.git",
-  //   },
+    {
+      name: "ChessGame",
+      description:
+        "Created a responsive portfolio using React.js and Three.js, featuring interactive 3D models such as a computer model and a rotating 3D Earth planet with animations, demonstrating my expertise in modern web development and 3D design.",
+      tags: [
+        {
+          name: "Node.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Socket IO",
+          color: "pink-text-gradient",
+        },
+      ],
+
+      image: Chess,
+      source_code_link: "https://github.com/sandhya144/ChessGame.git",
+    },
    ];
   
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, timeline };
 
