@@ -140,24 +140,22 @@ import {
       iconBg: "#E6DEDD",
       date: "July 2024 - August 2024",
       points: [
-        "Achieved a Top 5 rank among all mentees in the MSC-IGDTUW Web Development Bootcamp, demonstrating proficiency in modern web technologies and real-world application development.",
-        "Designed and developed web-dev projects, integrating responsive UI/UX, optimized performance, and API-driven functionalities, showcasing expertise in React.js, JavaScript, and other technologies.",
-        "Collaborated with industry mentors to refine coding best practices, improve problem-solving efficiency, and implement scalable, production-ready web applications.",
-        // "Participating in code reviews and providing constructive feedback to other developers.",
+        "Cracked the Top 5 spot in the MSC-IGDTUW Web Development Bootcamp, where I spent 4 weeks experimenting with modern web tech and bringing real ideas to life.",
+        "Worked on different projects — from snappy, responsive UIs to API-powered features — mainly with React.js and JavaScript, always making sure they looked good and loaded fast.",
+        // "Got to work closely with industry mentors, picking up insider tips, sharpening my problem-solving game, and learning how to ship scalable, production-ready web apps.",
       ],
     },
     {
-      title: "Hack Odyssey | Co-Organizer ",
+      title: "Hack Odyssey | Event Co-Lead ",
       company_name: "AITH Kanpur",
       icon: Aith,
       // iconBg: "#E6DEDD",
       iconBg: "#E6DEDD",
       date: "Dec 2024 - Jan 2025",
       points: [
-        "Spearheaded the end-to-end execution of Hack Odyssey, a large-scale hackathon with 150+ participants, successfully securing sponsorships, rewards, and certificates in collaboration with GeeksforGeeks.",
-        "Led event logistics, participant coordination, and technical workshops, facilitating a 30% improvement in coding skills among the top 10 participants through an intensive DSA training session.",
-        "Strengthened community engagement by fostering a collaborative and competitive environment, ensuring seamless operations and maximizing knowledge-sharing opportunities.",
-        // "Participating in code reviews and providing constructive feedback to other developers.",
+        "Took the lead in running Hack Odyssey, a full-blown hackathon with 100+ participants — from locking GeeksforGeeks as a sponser to arranging rewards and certificates.",
+        "Handled event logistics, kept participants on track, and hosted intensive workshops that boosted coding skills for the top 10 devs by over 30%.",
+        // "Built a buzzing, competitive-yet-friendly space where people shared ideas, learned from each other, and walked away with way more than just a participation certificate.",
       ],
     },
     {
@@ -168,10 +166,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Sep 2024 - Present",
       points: [
-        "Designed personalized learning paths and peer mentoring sessions, leading to a 30% increase in team performance and fostering collaboration among 100+ competitive programmers.",
-        "Conducted weekly technical workshops on algorithm design and problem-solving techniques, equipping participants with the skills to excel in national and international coding competitions.",
-        "Championed a community-driven learning culture, mentoring aspiring developers and facilitating knowledge exchange through structured problem-solving sessions and hackathons.",
-        // "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed personalized learning paths & peer mentoring sessions that boosted team performance by 30%.",
+        // "Led weekly algorithm & problem-solving workshops → Equipped participants to excel in national and international coding competitions.",
+        "Fostered collaboration among 100+ competitive programmers, creating a vibrant space for learning and problem-solving",
       ],
     },
     {
@@ -181,9 +178,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2025 - Present",
       points: [
-        "Microsoft Code; Without Barriers Mentee : Chosen for Microsoft’s initiative aimed at bridging the gender gap in tech, participating in hands-on AI and cloud computing projects, and networking with Microsoft experts and global mentors.",
-        "ASPIRE Leader Fellow : Completing an intensive leadership and innovation program, gaining mentorship from top professionals across industries.",
-        "HPAIR'25 Delegate : Selected to participate in Harvard’s prestigious HPAIR Conference, engaging in global discussions on technology, leadership, and AI ethics, collaborating with industry leaders and researchers to address real-world challenges.",
+        "Microsoft Code; Without Barriers Mentee – Part of Microsoft’s program to close the gender gap in tech, connecting with global experts and mentors.",
+        // "ASPIRE Leader Fellow – Diving into an intensive leadership and innovation journey, learning directly from top professionals across industries and building skills to drive real change.",
+        "HPAIR’25 Delegate – Selected for Harvard’s HPAIR Conference to discuss tech, leadership, and AI ethics with industry leaders.",
         // "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
@@ -198,7 +195,7 @@ import {
       iconBg: "#E6DEDD",
       date: "April 2017 - May 2019",
       points: [
-        "Built a strong academic foundation and developed early problem-solving skills. Graduated with 85% in board examinations.",
+        "Built a strong academic foundation. Graduated with 85% in board examinations.",
       ],
     },
     {
@@ -209,7 +206,7 @@ import {
       iconBg: "#E6DEDD",
       date: "April 2019 - May 2021",
       points: [
-        "Specialized in Science with Mathematics, focusing on academic excellence and analytical skills. Achieved 80% in Class XII.",
+        "Specialized in Science with Mathematics, focusing on academic excellence. Achieved 80% in Class XII.",
         
       ],
     },
@@ -219,7 +216,7 @@ import {
       icon: Aith,
       // iconBg: "#E6DEDD",
       iconBg: "#E6DEDD",
-      date: "September 2023 - August 2027",
+      date: "September 2023 - Present",
       points: [
         "Pursuing a comprehensive curriculum in core computer science and modern technologies, maintaining a 8+ CGPA.",
       ],
@@ -231,21 +228,21 @@ import {
   const testimonials = [
     {
       testimonial:
-        "Their creativity and technical expertise in web development, especially in React.js and 3D design, set them apart. They constantly push boundaries to deliver exceptional results.",
+        "She got the perfect mix of creativity and logic — solving DSA problems one moment and crafting awesome web features the next, all while rocking her academics.",
+      name: "Aarohi Verma",
+      // designation: "COO",
+      image: "https://media.istockphoto.com/id/1097854158/photo/day-at-the-campus.jpg?s=612x612&w=0&k=20&c=qW62usluDwG6pLJ-4G9x7h43byggo0uvGGVZwyOLr_g=",
+    },
+    {
+      testimonial:
+        "Her creativity and skills in development, especially with React.js and 3D design, really stand out. She’s always experimenting, pushing limits, and coming up with awesome results.",
       name: "Aarav Mehta",
       // designation: "",
       image: "https://img.freepik.com/premium-photo/indian-college-boy-happy-smiling-college_437792-728.jpg",
     },
     {
       testimonial:
-        "One of the most reliable developers I've worked with. Their dedication to creating responsive and visually stunning web experiences is impressive. They bring both creativity and technical precision.",
-      name: "Ananya Srivastava",
-      // designation: "COO",
-      image: "https://media.istockphoto.com/id/1097854158/photo/day-at-the-campus.jpg?s=612x612&w=0&k=20&c=qW62usluDwG6pLJ-4G9x7h43byggo0uvGGVZwyOLr_g=",
-    },
-    {
-      testimonial:
-        "An outstanding developer with a unique approach to problem-solving. Their skills in web development, from frontend design to interactive 3D models, are unmatched. It's great to work with them.",
+        "Whether it’s cracking an algorithms, building cool projects, or staying on top of her studies, she does it all with style and focus. She naturally inspires everyone around her to step up their game.",
       name: "Vihaan Singh",
       // designation: "CTO",
       // company: "456 Enterprises",
@@ -257,7 +254,7 @@ import {
     {
       name: "Tic Tac Toe",
       description:
-        "Developed a responsive and interactive Tic Tac Toe web application featuring a sleek, user-friendly interface, engaging confetti effects for victories, and audio feedback. The game offers a smooth experience, enhancing my expertise in game logic implementation.",
+        "Built a responsive Tic Tac Toe game with confetti wins and victory sounds for extra fun. Designed a smooth, user-friendly experience while sharpening my game logic skills.",
       tags: [
         {
           name: "HTML5",
@@ -279,7 +276,7 @@ import {
     {
       name: "Google Gemini",
       description:
-        "Designed a Google Gemini-inspired web application with dark and light mode UI, integrated the Gemini API, and optimized performance. Implemented copy, paste, and delete features,  enhancing usability and boosting user engagement and accessibility.",
+        "Created a Google Gemini-inspired web app with dark/light mode, Gemini API integration, and handy copy, paste, and delete features for a fast, accessible, and fun experience.",
       tags: [
         {
           name: "HTML5",
@@ -300,7 +297,7 @@ import {
     {
       name: "Portfolio Website",
       description:
-        "Created a responsive portfolio using React.js and Three.js, featuring interactive 3D models such as a computer model and a rotating 3D Earth planet with animations, demonstrating my expertise in modern web development and 3D design.",
+        "Built my own responsive portfolio with React.js and Three.js, featuring a rotating 3D Earth with smooth animations. It’s my little playground to show off modern web dev skills and a bit of 3D magic.",
       tags: [
         {
           name: "React.js",
@@ -321,7 +318,7 @@ import {
     {
       name: "ChessGame",
       description:
-        "Created a responsive portfolio using React.js and Three.js, featuring interactive 3D models such as a computer model and a rotating 3D Earth planet with animations, demonstrating my expertise in modern web development and 3D design.",
+        "Built a real-time multiplayer chess game where players can face off online with instant updates via Socket.io, smart move checks using Chess.js, and a Node.js + Express.js backend keeping everything in sync.",
       tags: [
         {
           name: "Node.js",
