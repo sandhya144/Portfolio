@@ -61,7 +61,7 @@ import {
       icon: creator,
     },
     {
-      title: "700+ DSA Problem Solved",
+      title: "500+ DSA Problem Solved",
       icon: backend,
     },
      {
