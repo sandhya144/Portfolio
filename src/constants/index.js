@@ -61,11 +61,11 @@ import {
       icon: creator,
     },
     {
-      title: "700+ DSA Problem Solved",
+      title: "500+ DSA Problem Solved",
       icon: backend,
     },
      {
-      title: "20+ Github Repositories",
+      title: "15+ Github Repositories",
       icon: mobile,
     },
     
