@@ -25,6 +25,11 @@ import microsoft from "./company/microsoft.png";
 import Aith from "./company/Aith.jpg";
 import Gdg from "./company/Gdg.jpg";
 import igdtuw from "./company/igdtuw.jpg";
+import cognifyztech from "./company/cognifyztech.webp";
+import meta from "./company/meta.jpg";
+import hack from "./company/hack.jpg";
+import google from "./company/gg.webp";
+
 
 import TicTacToe from "./TicTacToe.png";
 import Gemini from "./Gemini.png";
@@ -32,6 +37,9 @@ import Portfolio from "./Portfolio.png";
 import Chess from "./Chess.png";
 import cpp from "./cpp.svg";
 import School from "./School.jpeg";
+import MockMate from "./MockMate.png";
+import Fraudlens from "./Fraudlens.png";
+
 
 export {
   logo,
@@ -59,10 +67,16 @@ export {
   Aith,
   Gdg,
   igdtuw,
+  cognifyztech,
+  meta,
+  hack,
+  google,
   TicTacToe,
   Gemini,
   Portfolio,
   Chess,
+  MockMate,
+  Fraudlens,
   cpp,
   School,
 };

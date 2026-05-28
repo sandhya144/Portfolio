@@ -19,9 +19,15 @@ import {
     Aith,
     Gdg,
     igdtuw,
+    cognifyztech,
+    meta,
+    hack,
+    google,
     TicTacToe,
     Gemini,
     Portfolio,
+    MockMate,
+    Fraudlens,
      Chess,
     threejs,
     cpp,
@@ -57,16 +63,26 @@ import {
       icon: web,
     },
     {
-      title: "Content Creator",
+      title: "25+ Github Repositories",
+      icon: mobile,
+    },
+    
+    {
+      title: "800+ DSA Problem Solved",
+      icon: backend,
+    },
+     
+    {
+      title: "Leetcode Top-15.33%",
+      icon: web,
+    },
+    {
+      title: "Codechef -2 Star",
       icon: creator,
     },
     {
-      title: "500+ DSA Problem Solved",
-      icon: backend,
-    },
-     {
-      title: "20+ Github Repositories",
-      icon: mobile,
+      title: "Content Creator",
+      icon: creator,
     },
     
   ];
@@ -132,6 +148,60 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Full Stack Development Intern ",
+      company_name: "Cognifyz Tech",
+      icon: cognifyztech,
+      // iconBg: "#383E56",
+      iconBg: "#E6DEDD",
+      date: "December 2025 - Jan 2026",
+      points: [
+        "Worked as a Full Stack Development Intern on e-commerce based web applications, building responsive user interfaces and integrating modern frontend technologies using React.js and JavaScript.",
+        "Implemented and tested payment gateway functionalities while collaborating on real-world project features to improve user experience, performance, and transaction flow.",
+        
+      ],
+    },
+
+    {
+      title: "Frontend Intern ",
+      company_name: "Meta Scifor",
+      icon: meta,
+      // iconBg: "#383E56",
+      iconBg: "#E6DEDD",
+      date: "August 2025 - October 2025",
+      points: [
+         "Worked as a Frontend Intern on multiple web development projects, building responsive and interactive user interfaces using React.js, JavaScript, HTML, and CSS.",
+         "Collaborated on improving UI components, optimizing website responsiveness, and implementing modern frontend design practices to enhance overall user experience.",
+      ],
+    },
+
+    {
+      title: "National Level Hackathon Participant",
+      company_name: "IdeaKode",
+      icon: hack,
+      // iconBg: "#383E56",
+      iconBg: "#E6DEDD",
+      date: "July 2024 - August 2024",
+      points: [
+        "Secured a Top 10 position among 700+ participants in the national-level IdeaKode Hackathon by building an innovative AI-powered fintech solution under competitive development timelines.",
+        "Developed FraudLens, a machine learning–based online payment fraud detection system using advanced ML techniques to identify fraudulent transactions with high accuracy and real-time prediction capabilities.",
+      ],
+    },
+
+    {
+      title: "Google BigCode Qualifier (Round-1)",
+      company_name: "Google",
+      icon: google,
+      // iconBg: "#383E56",
+      iconBg: "#E6DEDD",
+      date: "July 2024 - August 2024",
+      points: [
+         "Qualified Round 1 of Google BigCode by securing a position among the top 15,000 participants out of 60,000+ students nationwide in a highly competitive coding challenge.",
+        "Demonstrated strong problem-solving and algorithmic thinking skills by competing against thousands of participants in Google's national-level programming competition.",
+      ],
+    },
+
+
     {
       title: "Web Development Program | IGDTUW",
       company_name: "MSC-IGDTUW",
@@ -252,6 +322,71 @@ import {
   
   const projects = [
     {
+      name: "FraudLens",
+      description:
+        "Built FraudLens, an AI-powered online payment fraud detection system that analyzes real-time transaction data using advanced feature engineering, PCA, and XGBoost classification to accurately detect fraudulent activities and improve digital payment security.",
+      tags: [
+        {
+          name: "MachineLearning",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "XGBoost",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Fraudlens,
+      source_code_link: "https://github.com/sandhya144/Fraudlens.git",
+    },
+    {
+      name: "MockMate",
+      description:
+        "Built MockMate, an AI-powered mock interview platform where users can practice real-time voice interviews with AI agents, receive instant transcript-based feedback using Gemini AI, and securely store interview history with Firebase Authentication and Firestore.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: " Firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "VapiAI",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: MockMate,
+      source_code_link: "https://github.com/sandhya144/MockMate.git",
+    },
+ {
+      name: "ChessGame",
+      description:
+        "Built a real-time multiplayer chess game where players can face off online with instant updates via Socket.io, smart move checks using Chess.js, and a Node.js + Express.js backend keeping everything in sync.",
+      tags: [
+        {
+          name: "Node.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Socket IO",
+          color: "pink-text-gradient",
+        },
+      ],
+
+      image: Chess,
+      source_code_link: "https://github.com/sandhya144/ChessGame.git",
+    },
+
+    {
       name: "Tic Tac Toe",
       description:
         "Built a responsive Tic Tac Toe game with confetti wins and victory sounds for extra fun. Designed a smooth, user-friendly experience while sharpening my game logic skills.",
@@ -274,27 +409,6 @@ import {
     },
     
     {
-      name: "Google Gemini",
-      description:
-        "Created a Google Gemini-inspired web app with dark/light mode, Gemini API integration, and handy copy, paste, and delete features for a fast, accessible, and fun experience.",
-      tags: [
-        {
-          name: "HTML5",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: Gemini,
-      source_code_link: "https://github.com/sandhya144/Gemini.git",
-    },
-    {
       name: "Portfolio Website",
       description:
         "Built my own responsive portfolio with React.js and Three.js, featuring a rotating 3D Earth with smooth animations. It’s my little playground to show off modern web dev skills and a bit of 3D magic.",
@@ -315,28 +429,29 @@ import {
       image: Portfolio,
       source_code_link: "https://github.com/sandhya144/Portfolio.git",
     },
+    
     {
-      name: "ChessGame",
+      name: "Google Gemini Clone",
       description:
-        "Built a real-time multiplayer chess game where players can face off online with instant updates via Socket.io, smart move checks using Chess.js, and a Node.js + Express.js backend keeping everything in sync.",
+        "Created a Google Gemini-inspired web app with dark/light mode, Gemini API integration, and handy copy, paste, and delete features for a fast, accessible, and fun experience.",
       tags: [
         {
-          name: "Node.js",
+          name: "HTML5",
           color: "blue-text-gradient",
         },
         {
-          name: "Express.js",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "Socket IO",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-
-      image: Chess,
-      source_code_link: "https://github.com/sandhya144/ChessGame.git",
+      image: Gemini,
+      source_code_link: "https://github.com/sandhya144/Gemini.git",
     },
+    
    ];
   
 export { services, technologies, experiences, testimonials, projects, timeline };
