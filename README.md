@@ -2,7 +2,7 @@
 
 # ⚙️Portfolio
 
-> *A responsive 3D personal portfolio built with React and Vite — to showcase projects, experience, skills, and a working contact form in one interactive single-page site.*
+> *A responsive 3D personal portfolio built with React and Vite — to showcase my projects, experience, skills, and a working contact form in one interactive single-page site.*
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite)
@@ -15,7 +15,7 @@
 
 **[Get Started](#-installation) · [Features](#-features) · [Contribution](#-contributing)**
 
-<a href="https://sandhya144.github.io/Portfolio/" target="_blank">
+<a href="portfolio-mu-coral-78.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/Live%20Demo-View%20Site-blue?style=flat-square" alt="Live Demo" />
   </a>
 
@@ -25,11 +25,11 @@
 
 ## 🧾 About
 
-A plain list of GitHub links doesn't tell anyone who you are or what you're capable of. 
-
-Here, I've presented all my Technical skills, projects, education, experience, testimonials, and a working contact form.
+A plain list of GitHub links doesn't tell anyone who you are or what you're capable of.
 
 Also solves the presentation problem for technical work. Instead of a plain list of links, the site combines motion, 3D visuals, timelines, and project cards so visitors can understand both capability and personality quickly.
+
+
 
 ---
 
