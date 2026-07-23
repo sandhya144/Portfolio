@@ -28,8 +28,8 @@ import {
     Portfolio,
     MockMate,
     Fraudlens,
-     Chess,
-    threejs,
+    Chess,
+    Threejs,
     cpp,
     School,
      
@@ -45,6 +45,10 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "education",
@@ -130,7 +134,7 @@ import {
     },
     {
       name: "Three JS",
-      icon: threejs,
+      icon: Threejs,
     },
     {
       name: "git",

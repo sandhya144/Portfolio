@@ -5,7 +5,7 @@ import { ReactTyped } from "react-typed";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import Tilt from 'react-parallax-tilt';
-import image from '../assets/pimage.png'
+import image from '../assets/mimage.png'
 
 const Hero = () => {
   return (

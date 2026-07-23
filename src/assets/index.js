@@ -19,7 +19,7 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import Threejs from "./tech/Threejs.png";
 
 import microsoft from "./company/microsoft.png";
 import Aith from "./company/Aith.jpg";
@@ -62,7 +62,7 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
+  Threejs,
   microsoft,
   Aith,
   Gdg,
