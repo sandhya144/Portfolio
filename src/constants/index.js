@@ -177,45 +177,28 @@ import {
         
       ],
     },
-
-    {
-      title: "National Level Hackathon Participant",
-      company_name: "IdeaKode",
-      icon: hack,
-      // iconBg: "#383E56",
-      iconBg: "#E6DEDD",
-      date: "July 2024 - August 2024",
-      points: [
-        "Secured a Top 10 position among 700+ participants in the national-level IdeaKode Hackathon by building an innovative AI-powered fintech solution under competitive development timelines.",
-        "Developed FraudLens, a machine learning–based online payment fraud detection system using advanced ML techniques to identify fraudulent transactions with high accuracy and real-time prediction capabilities.",
-      ],
-    },
-
     {
       title: "Google BigCode Qualifier (Round-1)",
       company_name: "Google",
       icon: google,
       // iconBg: "#383E56",
       iconBg: "#E6DEDD",
-      date: "July 2024 - August 2024",
+      date: "Jan 2026",
       points: [
          "Qualified Round 1 of Google BigCode by securing a position among the top 15,000 participants out of 60,000+ students nationwide in a highly competitive coding challenge.",
         "Demonstrated strong problem-solving and algorithmic thinking skills by competing against thousands of participants in Google's national-level programming competition.",
       ],
     },
-
-
     {
-      title: "Web Development Program | IGDTUW",
-      company_name: "MSC-IGDTUW",
-      icon: igdtuw,
+      title: "National Level Hackathon Participant",
+      company_name: "IdeaKode",
+      icon: hack,
       // iconBg: "#383E56",
       iconBg: "#E6DEDD",
-      date: "July 2024 - August 2024",
+      date: "October 2025",
       points: [
-        "Cracked the Top 5 spot in the MSC-IGDTUW Web Development Bootcamp, where I spent 4 weeks experimenting with modern web tech and bringing real ideas to life.",
-        "Worked on different projects — from snappy, responsive UIs to API-powered features — mainly with React.js and JavaScript, always making sure they looked good and loaded fast.",
-        // "Got to work closely with industry mentors, picking up insider tips, sharpening my problem-solving game, and learning how to ship scalable, production-ready web apps.",
+        "Secured a Top 10 position among 700+ participants in the national-level IdeaKode Hackathon by building an innovative AI-powered fintech solution under competitive development timelines.",
+        "Developed FraudLens, a machine learning–based online payment fraud detection system using advanced ML techniques to identify fraudulent transactions with high accuracy and real-time prediction capabilities.",
       ],
     },
     {
@@ -232,24 +215,11 @@ import {
       ],
     },
     {
-      title: "GDG | Core Team Member",
-      company_name: "Google Developer Group",
-      icon: Gdg,
-      // iconBg: "#383E56",
-      iconBg: "#E6DEDD",
-      date: "Sep 2024 - Present",
-      points: [
-        "Designed personalized learning paths & peer mentoring sessions that boosted team performance by 30%.",
-        // "Led weekly algorithm & problem-solving workshops → Equipped participants to excel in national and international coding competitions.",
-        "Fostered collaboration among 100+ competitive programmers, creating a vibrant space for learning and problem-solving",
-      ],
-    },
-    {
       title: "Global Fellowships",
       company_name: "Microsoft | HPAIR | ASPIRE",
       icon: microsoft,
       iconBg: "#E6DEDD",
-      date: "Jan 2025 - Present",
+      date: "Jan 2025 ",
       points: [
         "Microsoft Code; Without Barriers Mentee – Part of Microsoft’s program to close the gender gap in tech, connecting with global experts and mentors.",
         // "ASPIRE Leader Fellow – Diving into an intensive leadership and innovation journey, learning directly from top professionals across industries and building skills to drive real change.",
@@ -257,6 +227,33 @@ import {
         // "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    {
+      title: "GDG | Core Team Member",
+      company_name: "Google Developer Group",
+      icon: Gdg,
+      // iconBg: "#383E56",
+      iconBg: "#E6DEDD",
+      date: "Sep 2024 - Sep 2025",
+      points: [
+        "Designed personalized learning paths & peer mentoring sessions that boosted team performance by 30%.",
+        // "Led weekly algorithm & problem-solving workshops → Equipped participants to excel in national and international coding competitions.",
+        "Fostered collaboration among 100+ competitive programmers, creating a vibrant space for learning and problem-solving",
+      ],
+    },
+    {
+      title: "Web Development Program | IGDTUW",
+      company_name: "MSC-IGDTUW",
+      icon: igdtuw,
+      // iconBg: "#383E56",
+      iconBg: "#E6DEDD",
+      date: "July 2024 - August 2024",
+      points: [
+        "Cracked the Top 5 spot in the MSC-IGDTUW Web Development Bootcamp, where I spent 4 weeks experimenting with modern web tech and bringing real ideas to life.",
+        "Worked on different projects — from snappy, responsive UIs to API-powered features — mainly with React.js and JavaScript, always making sure they looked good and loaded fast.",
+        // "Got to work closely with industry mentors, picking up insider tips, sharpening my problem-solving game, and learning how to ship scalable, production-ready web apps.",
+      ],
+    },
+    
   ];
 
   const timeline = [
