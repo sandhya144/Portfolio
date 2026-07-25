@@ -24,9 +24,10 @@ const Hero = () => {
 
     <ReactTyped
       strings={[
-       `I'm a <span style="color:#915EFF; font-weight:bold;"> Fullstack Developer.</span>`,
-         `I'm a <span style="color:#915EFF; font-weight:bold;">Competitive Coder.</span>`,
-    `I love turning <span style="color:#915EFF; font-weight:bold;">ideas into reality.</span>`,
+      `I'm a <span style="color:#915EFF; font-weight:bold;"> Fullstack Developer.</span>`,
+      `I'm a <span style="color:#915EFF; font-weight:bold;"> Freelance Developer.</span>`,
+      `I'm a <span style="color:#915EFF; font-weight:bold;"> Competitive Coder.</span>`,
+      `I love turning <span style="color:#915EFF; font-weight:bold;">ideas into reality.</span>`,
       ]}
 
       speed={100}
@@ -41,9 +42,7 @@ const Hero = () => {
     <motion.p
           variants={fadeIn("", "", 0.1, 1)}
            className='mt-4 text-secondary text-[17px] leading-[30px]font-normal'  
-         > I’m a coder at heart who loves solving tricky problems. <br/>With experience in full-stack development, I enjoy building things that work and last. 
-         I’d be happy to bring my expertise to the table and help make your projects a success.
-
+         > I'm someone who enjoys figuring things out. Whether it's solving coding problems or debugging for hours, building full-stack projects  or creating websites for paid freelance clients, , I genuinely enjoy the process of learning and improving every day.
          </motion.p>
 
       {/* resume button */}

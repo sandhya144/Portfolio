@@ -51,14 +51,24 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        My coding journey began in January 2024, with a laptop on my desk and curiosity in my mind. The thrill of building my first projects hooked me instantly — every bug I fixed felt like unlocking a new level. 
-      <br/>
-  From my first lines of code to reaching towards the Competitive Programming, every milestone has fueled my passion.
-  <br />
-  Balancing academics and code hasn’t been easy, but somewhere between late-night problem-solving and seeing my ideas come to life, I realized this isn’t just a skill — it’s my passion.
 
+  <div>
+  <p style={{ marginBottom: "10px" }}>
+    My coding journey started in January 2024 with a laptop and a curious mind. I didn't start coding because I had it all figured out—I started because I was curious. Today, I still chase that same feeling of solving a tough problem and turning an idea into something real.
+  </p>
 
-        
+  <p style={{ marginBottom: "10px" }}>
+    Balancing academics and coding wasn't easy, but somewhere between late-night debugging and bringing ideas to life, I realized programming had become my passion.
+  </p>
+
+  <p style={{ marginBottom: "10px" }}>
+    As I stepped further, I wanted to challenge myself beyond personal projects. That's when I started working on paid freelance projects, building websites for real businesses and experiencing the responsibility of creating solutions that people genuinely rely on.
+  </p>
+
+  <p style={{ marginBottom: "0" }}>
+    Today, I'm still driven by the same curiosity that started this journey. Whether I'm solving DSA problems, building full-stack applications, or working with clients, every project is another opportunity to learn, grow, and create something meaningful.
+  </p>
+</div>
 
       </motion.p>
 

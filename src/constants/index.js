@@ -28,8 +28,13 @@ import {
     Portfolio,
     MockMate,
     Fraudlens,
+    Feminine,
+    Hotel,
+    Zeptronics,
+    Institute,
     Chess,
     Threejs,
+    SQL,
     cpp,
     School,
      
@@ -63,26 +68,34 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Developer (MERN)",
       icon: web,
     },
     {
-      title: "25+ Github Repositories",
+      title: "Freelance with Real Clients",
+      icon: backend,
+    },
+    {
+      title: "20+ Github Repositories",
       icon: mobile,
     },
     
     {
-      title: "800+ DSA Problem Solved",
+      title: "900+ DSA Problem Solved",
       icon: backend,
     },
      
     {
-      title: "Leetcode Top-15.33%",
+      title: "Leetcode Top 10.48%",
       icon: web,
     },
     {
-      title: "Codechef -2 Star",
-      icon: creator,
+      title: "Codechef 2 Star",
+      icon: mobile,
+    },
+    {
+      title: "1.5K+ Followers on LinkedIn",
+      icon: web,
     },
     {
       title: "Content Creator",
@@ -108,10 +121,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
     {
       name: "React JS",
       icon: reactjs,
@@ -137,14 +150,13 @@ import {
       icon: Threejs,
     },
     {
+      name: "SQL",
+      icon: SQL,
+    },
+    {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-
     // {
     //   name: "docker",
     //   icon: docker,
@@ -163,19 +175,6 @@ import {
         "Worked as a Full Stack Development Intern on e-commerce based web applications, building responsive user interfaces and integrating modern frontend technologies using React.js and JavaScript.",
         "Implemented and tested payment gateway functionalities while collaborating on real-world project features to improve user experience, performance, and transaction flow.",
         
-      ],
-    },
-
-    {
-      title: "Frontend Intern ",
-      company_name: "Meta Scifor",
-      icon: meta,
-      // iconBg: "#383E56",
-      iconBg: "#E6DEDD",
-      date: "August 2025 - October 2025",
-      points: [
-         "Worked as a Frontend Intern on multiple web development projects, building responsive and interactive user interfaces using React.js, JavaScript, HTML, and CSS.",
-         "Collaborated on improving UI components, optimizing website responsiveness, and implementing modern frontend design practices to enhance overall user experience.",
       ],
     },
 
@@ -326,28 +325,8 @@ import {
   
   const projects = [
     {
-      name: "FraudLens",
-      description:
-        "Built FraudLens, an AI-powered online payment fraud detection system that analyzes real-time transaction data using advanced feature engineering, PCA, and XGBoost classification to accurately detect fraudulent activities and improve digital payment security.",
-      tags: [
-        {
-          name: "MachineLearning",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "XGBoost",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Python",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: Fraudlens,
-      source_code_link: "https://github.com/sandhya144/Fraudlens.git",
-    },
-    {
       name: "MockMate",
+      category:"personal",
       description:
         "Built MockMate, an AI-powered mock interview platform where users can practice real-time voice interviews with AI agents, receive instant transcript-based feedback using Gemini AI, and securely store interview history with Firebase Authentication and Firestore.",
       tags: [
@@ -367,8 +346,53 @@ import {
       image: MockMate,
       source_code_link: "https://github.com/sandhya144/MockMate.git",
     },
- {
+     {
+      name: "Zeptronics",
+      category:"personal",
+      description:
+        "Zeptronics is a full-stack MERN e-commerce platform for buying and selling electronic gadgets and accessories. It features secure authentication, advanced search & filtering, Razorpay payments, order tracking, and dedicated User & Admin dashboards for seamless shopping and store management.",
+      tags: [
+        {
+          name: "Express.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "RazorPay",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Zeptronics,
+      source_code_link: "https://github.com/sandhya144/Zeptronics.git",
+    },
+     {
+      name: "Feminine Bot",
+      category:"personal",
+      description:
+        "FeminineBot is an AI-powered women's health chatbot built with React & Node.js, using Google Gemini to answer questions about periods, PCOS, pregnancy, mental health, and more — privately and judgment-free.",
+      tags: [
+        {
+          name: "Node.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Gemini API",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Feminine,
+      source_code_link: "https://github.com/sandhya144/Feminine-Bot.git",
+    },
+    {
       name: "ChessGame",
+      category:"personal",
       description:
         "Built a real-time multiplayer chess game where players can face off online with instant updates via Socket.io, smart move checks using Chess.js, and a Node.js + Express.js backend keeping everything in sync.",
       tags: [
@@ -390,8 +414,102 @@ import {
       source_code_link: "https://github.com/sandhya144/ChessGame.git",
     },
 
+     {
+      name: "FraudLens",
+      category:"personal",
+      description:
+        "Built FraudLens, an AI-powered online payment fraud detection system that analyzes real-time transaction data using advanced feature engineering, PCA, and XGBoost classification to accurately detect fraudulent activities and improve digital payment security.",
+      tags: [
+        {
+          name: "MachineLearning",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "XGBoost",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Fraudlens,
+      source_code_link: "https://github.com/sandhya144/Fraudlens.git",
+    },
+
+    {
+      name: "Google Gemini Clone",
+      category:"personal",
+      description:
+        "Created a Google Gemini-inspired web app with dark/light mode, Gemini API integration, and handy copy, paste, and delete features for a fast, accessible, and fun experience.",
+      tags: [
+        {
+          name: "HTML5",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Gemini,
+      source_code_link: "https://github.com/sandhya144/Gemini.git",
+    },
+    
+    {
+      name: "Amara Ganges Palace",
+      category:"client",
+      description:
+        "A modern, responsive luxury hotel landing page built with HTML, CSS, and JavaScript. Features smooth animations, interactive sections, a booking widget, and a premium UI designed to showcase hotel services and enhance the user experience.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JS + Vite",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Hotel,
+      source_code_link: "https://github.com/sandhya144/Amara-Ganges-Palace.git",
+    },
+  
+    
+    {
+      name: "TechLearn Academy",
+      category:"client",
+      description:
+        "A responsive computer training institute website built with HTML, CSS, and JavaScript, featuring course information, trainer profiles, a gallery, FAQs, animated statistics, and a contact form with validation.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JS + Vite",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Institute,
+      source_code_link: "https://github.com/sandhya144/Institute-Website.git",
+    },
+ 
     {
       name: "Tic Tac Toe",
+      category:"personal",
       description:
         "Built a responsive Tic Tac Toe game with confetti wins and victory sounds for extra fun. Designed a smooth, user-friendly experience while sharpening my game logic skills.",
       tags: [
@@ -412,49 +530,6 @@ import {
       source_code_link: "https://github.com/sandhya144/Tic-Tac-Toe.git",
     },
     
-    {
-      name: "Portfolio Website",
-      description:
-        "Built my own responsive portfolio with React.js and Three.js, featuring a rotating 3D Earth with smooth animations. It’s my little playground to show off modern web dev skills and a bit of 3D magic.",
-      tags: [
-        {
-          name: "React.js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Three.js",
-          color: "green-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: Portfolio,
-      source_code_link: "https://github.com/sandhya144/Portfolio.git",
-    },
-    
-    {
-      name: "Google Gemini Clone",
-      description:
-        "Created a Google Gemini-inspired web app with dark/light mode, Gemini API integration, and handy copy, paste, and delete features for a fast, accessible, and fun experience.",
-      tags: [
-        {
-          name: "HTML5",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: Gemini,
-      source_code_link: "https://github.com/sandhya144/Gemini.git",
-    },
     
    ];
   

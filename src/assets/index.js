@@ -20,6 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import Threejs from "./tech/Threejs.png";
+import SQL from './tech/SQL.png'
 
 import microsoft from "./company/microsoft.png";
 import Aith from "./company/Aith.jpg";
@@ -31,6 +32,7 @@ import hack from "./company/hack.jpg";
 import google from "./company/gg.webp";
 
 
+
 import TicTacToe from "./TicTacToe.png";
 import Gemini from "./Gemini.png";
 import Portfolio from "./Portfolio.png";
@@ -39,6 +41,10 @@ import cpp from "./cpp.svg";
 import School from "./School.jpeg";
 import MockMate from "./MockMate.png";
 import Fraudlens from "./Fraudlens.png";
+import Feminine from "./feminine.png"
+import Hotel from "./Hotel.png";
+import Institute from "./Institute.png";
+import Zeptronics from "./Zeptronics.png";
 
 
 export {
@@ -63,6 +69,7 @@ export {
   tailwind,
   typescript,
   Threejs,
+  SQL,
   microsoft,
   Aith,
   Gdg,
@@ -77,6 +84,10 @@ export {
   Chess,
   MockMate,
   Fraudlens,
+  Hotel,
+  Zeptronics,
+  Institute,
+  Feminine,
   cpp,
   School,
 };
